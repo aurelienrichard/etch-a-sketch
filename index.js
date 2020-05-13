@@ -14,7 +14,7 @@ function createGrid() {
     var gridElement = document.createElement("div");
     gridElement.style.opacity = 1;
     grid.appendChild(gridElement);
-    gridElement.addEventListener("mousemove", function() {
+    gridElement.addEventListener("mouseover", function() {
       if (this.style.opacity > 0) {
         this.style.opacity -= 0.20;
       }
