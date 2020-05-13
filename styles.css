@@ -12,13 +12,6 @@ header {
   padding: 3% 10%;
 }
 
-@media (max-width: 491px) {
-  header {
-    justify-content: center;
-    padding-bottom: 10%;
-  }
-}
-
 h1 {
   font-size: 2.5rem;
 }
@@ -33,7 +26,7 @@ button {
 	font-size: 1.475rem;
 	font-weight:bold;
 	padding: 0 16px;
-  margin-left: 1rem;
+  margin: 0 1rem;
 }
 
 button:hover {
@@ -82,4 +75,11 @@ footer {
 
 footer a {
   color: #3e52a3;
+}
+
+@media (max-width: 511px) {
+  header {
+    justify-content: center;
+    padding-bottom: 10%;
+  }
 }
